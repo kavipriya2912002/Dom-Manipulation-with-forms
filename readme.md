@@ -1,2 +1,2 @@
 Task name: DOM MANIPULATION WITH FORMS
-This is a form and table created using HTML,CSS,BOOTSTRAP AND DOM.the form will contain the imformation of a user and the table will store the information received from the users.
+This is a form and table created using HTML,CSS,BOOTSTRAP and DOM.The form will contain the imformation of a user and the table will store the information received from the users.
