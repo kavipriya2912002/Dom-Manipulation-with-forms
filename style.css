@@ -1,43 +1,50 @@
-body{
-    background-color:#000000 !important;
-    font-family: 'EB Garamond', serif !important;
-    
+body {
+  background-color: #000000 !important;
+  font-family: "EB Garamond", serif !important;
+  display: grid;
 }
 
-
-.form-group{
-    padding-top: 5px;
-    margin: 5px 100px;
-    background-color: #EA445A;
-    color: #000000;
+.form-group {
+  padding-top: 5px;
+  margin: 5px 100px;
+  background-color: #ea445a;
+  color: #000000;
+  table-layout: fixed;
 }
 
-#description,#title{
-    text-align: center;
-     padding-top: 20px;
-     font-size: 20px;
-     color: #74F0ED;
+#description,
+#title {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #74f0ed;
 }
-#title{
-    font-size: xx-large;
+#title {
+  font-size: xx-large;
 }
 
-input[type=text], select {
-    
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 3px solid black;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  input[type=button] {
+input[type="text"],
+select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="button"] {
+  background-color: #343a40;
+  color: rgb(12, 12, 12);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-    background-color: #343a40;
-    color: rgb(12, 12, 12);
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+.table {
+  width: 100px; /* Adjust the width according to your design */
+  border-collapse: collapse;
+  display: table !important;
+  margin-top: 20px 20px; /* Add some margin for spacing */
+}

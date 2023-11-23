@@ -20,16 +20,15 @@ document.getElementById("submit").onclick = function () {
     pincode.innerHTML= document.getElementById("pincode").value;
     gender.innerHTML =document.querySelector('input[name = gender]:checked').value;
     food.innerHTML = Array.from(document.querySelectorAll("input[type=checkbox][name=foods]:checked"), e => e.value);
-    //     var checkboxes = document.getElementsByName('foods');
-    //     for (var checkbox of checkboxes)
-    //     {
-    //         if (checkbox.checked) {
-    //             document.body.append(checkbox.value + ' ');
-    //         }
-    //     }
-    // }
     state.innerHTML = document.getElementById("state").value;
     country.innerHTML = document.getElementById("country").value;
+
+    var forms = document.getElementById("form")
+   forms.reset();
+
+
   
     return false;
+
+    
   }
